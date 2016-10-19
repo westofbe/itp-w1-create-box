@@ -1,5 +1,5 @@
 """This is the entry point of the program."""
 
 
-def main():
+def create_box(height, width, character):
     pass
