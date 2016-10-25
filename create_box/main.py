@@ -5,5 +5,10 @@ def create_box(height, width, character):
     pass
 
 
+def create_empty_box(height, width, character):
+    # Extra credit
+    pass
+
+
 if __name__ == '__main__':
     create_box(3, 4, '*')

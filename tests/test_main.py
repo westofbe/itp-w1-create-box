@@ -1,6 +1,6 @@
 import unittest
 
-from create_box import create_box
+from create_box import create_box, create_empty_box
 
 first_box_expected = """
 ****
@@ -26,4 +26,10 @@ class TestCreateBox(unittest.TestCase):
     def test_small_box(self):
         self.assertEqual(create_box(1, 1, '@'), second_box_expected)
 
-    # Add your own test using third_box_expected
+    # Add your own test using third_box_expected, make sure test name is different
+
+class TestCreateEmptyBox(unittest.TestCase):
+    # Add your own tests for create_empty_box here
+    def test_empty_box(self):
+        pass
+

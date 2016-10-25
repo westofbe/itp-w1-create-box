@@ -1,1 +1,1 @@
-from .main import create_box
+from .main import create_box, create_empty_box
