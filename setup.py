@@ -32,7 +32,7 @@ setup(
     packages=['create_box'],
     maintainer='rmotr.com',
     tests_require=[
-        'pytest==3.0.3',
+        'pytest==3.0.5',
         'pytest-cov==2.4.0',
         'coverage==4.2'
     ],
